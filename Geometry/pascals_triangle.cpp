@@ -1,6 +1,7 @@
 ﻿#include <iostream>
-
 using namespace std;
+
+//#define PASCALTRIANGLE
 
 void printPascalTriangle(int depth)
 {
@@ -36,6 +37,7 @@ void printPascalTriangle(int depth)
     delete[] triangle;
 }
 
+#ifdef PASCALTRIANGLE
 int main()
 {
     setlocale(LC_ALL, "");
@@ -44,6 +46,5 @@ int main()
     cin >> depth;
 
     printPascalTriangle(depth);
-
-    return 0;
 }
+#endif //PASCALTRIANGLE

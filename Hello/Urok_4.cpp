@@ -28,38 +28,43 @@ Decrement(--) - унарный оператор который уменьшает значение переменной на 1
 
 */
 
-//#include<iostream>
-//using namespace std;
-//#define ARITHMETICAL_OPERATORS
-//#define assignment_operator
-//#define increment_decrement // intcrement/decrement (++, --)
-//void n() 
-//{
-//	setlocale(LC_ALL, "");
-//	cout << "Hello Operations!" << endl;
-//
-//#ifdef ARITHMETICAL_OPERATORS
-//	//Unary: +, -;
-//	//Binary: +, -, *, /, % - остаток деления;
-//	//Остаток от деления всегда меньше делителя
-//	//Если делимое меньше делителя, то оно полностью выпадается в остаток
-//	cout << 17 / 3 << endl;
-//	cout << 17 % 3 << endl;
-//	//cout << 3. % 17 << endl; Операция остаток от деления не применимая к вещественным типам данным float и double
-//	//При генерации случайных чисел 
-//#endif
-//
-//#ifdef assignment_operator
-//	int a, b, c = 2;
-//	cout << a << "\t" << b << "\t" << c;
-//#endif
-//
-//#ifdef increment_decrement
-//	int i = 0;
-//	++i; // Prefix Increment
-//	i++;// Prostfix (Suffix) Decrement
-//	--i; // Prefix Increment
-//	i--; // Postfix Increment
-//#endif
-//}
-//
+#include<iostream>
+using namespace std;
+
+//#define UROK_4
+
+#define ARITHMETICAL_OPERATORS
+#define assignment_operator
+#define increment_decrement // intcrement/decrement (++, --)
+
+#ifdef UROK_4
+void main() 
+{
+	setlocale(LC_ALL, "");
+	cout << "Hello Operations!" << endl;
+
+#ifdef ARITHMETICAL_OPERATORS
+	//Unary: +, -;
+	//Binary: +, -, *, /, % - остаток деления;
+	//Остаток от деления всегда меньше делителя
+	//Если делимое меньше делителя, то оно полностью выпадается в остаток
+	cout << 17 / 3 << endl;
+	cout << 17 % 3 << endl;
+	//cout << 3. % 17 << endl; Операция остаток от деления не применимая к вещественным типам данным float и double
+	//При генерации случайных чисел 
+#endif
+
+#ifdef assignment_operator
+	int a, b, c = 2;
+	cout << a << "\t" << b << "\t" << c;
+#endif
+
+#ifdef increment_decrement
+	int i = 0;
+	++i; // Prefix Increment
+	i++;// Prostfix (Suffix) Decrement
+	--i; // Prefix Increment
+	i--; // Postfix Increment
+#endif
+}
+#endif //UROK_4

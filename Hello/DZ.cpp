@@ -1,8 +1,13 @@
 ﻿#include<iostream>
 using namespace std;
+
+//#define CALC
+
 //#define CALC_IF
-#define CALC_SWITCH
-void n() 
+//#define CALC_SWITCH
+
+#ifdef CALC
+void main() 
 {
 	setlocale(LC_ALL, "");
 	int num_1;
@@ -59,3 +64,4 @@ void n()
 
 #endif
 }
+#endif //CALC

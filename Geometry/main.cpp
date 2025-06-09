@@ -1,5 +1,8 @@
 ﻿#include <iostream>
 using namespace std;
+
+//#define GEOMETRY
+
 //#define SQUARE
 //#define TRIANGLE_1
 //#define TRIANGLE_2
@@ -8,7 +11,8 @@ using namespace std;
 //#define RHOMBUS
 //#define RHOMBUS_2
 
-void man()
+#ifdef GEOMETRY
+void main()
 {
 	setlocale(LC_ALL, "");
 
@@ -95,3 +99,4 @@ void man()
 	}
 #endif
 }
+#endif //GEOMETRY

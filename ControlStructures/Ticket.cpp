@@ -34,7 +34,5 @@ int main()
     else {
         std::cout << "Билет " << ticketNumber << " является обычным." << std::endl;
     }
-
-    return 0;
 }
 #endif

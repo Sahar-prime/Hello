@@ -1,5 +1,8 @@
 #include <iostream>
 using namespace std;
+
+//#define FOR
+
 //#define FACTORIAL
 //#define POWER
 //#define FIBONACCI
@@ -7,6 +10,7 @@ using namespace std;
 //#define PERFECT_NUMB
 //#define PITHAGORAS_TABLE
 
+#ifdef FOR
 void main()
 {
     setlocale(LC_ALL, "");
@@ -101,6 +105,7 @@ void main()
     }
 #endif
 }
+#endif //FOR
 /*
 for - цикл на заданное число итераций
 У цикла for следующие синтаксис:

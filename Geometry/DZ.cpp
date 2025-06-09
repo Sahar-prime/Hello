@@ -1,6 +1,8 @@
 ﻿#include <iostream>
 using namespace std;
 
+//#define PERFECT_NUMB
+
 // Функция для проверки, является ли число простым
 bool isPrime(int n) 
 {
@@ -49,7 +51,8 @@ bool isPerfect(int n)
     return sum == n;
 }
 
-int m() 
+#ifdef PERFECT_NUMB
+int main() 
 {
     setlocale(LC_ALL, "");
     int limit; // Ограничение для поиска совершенных чисел
@@ -68,6 +71,5 @@ int m()
             }
         }
     }
-    return 0;
-
 }
+#endif //PERFECT_NUMB

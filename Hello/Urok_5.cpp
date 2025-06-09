@@ -73,45 +73,50 @@ void main()
 */
 
 
-//#include<iostream>
-//using namespace std;
-//void main() 
-//{
-//	setlocale(LC_ALL, "");
-//	cout << "ControlStructures" << endl;
-//	int temperatur;
-//	cout << "Введите температуру воздуха: "; cin >> temperatur;
-//	cout << temperatur << endl;
-//	if (temperatur >= 50) 
-//	{
-//		cout << "Вы на экваторе" << endl;
-//	}
-//	else if (temperatur >= 70)
-//	{
-//		cout << "Вы на другой планете" << endl;
-//	}
-//	else if (temperatur >= 30) 
-//	{
-//		cout << "Жарко" << endl;
-//	}
-//	else if (temperatur >= 10) 
-//	{
-//		cout << "Тепло" << endl;
-//	}
-//	else if (temperatur >= 0) 
-//	{
-//		cout << "Прохладно" << endl;
-//	}
-//	else if (temperatur >= -10)
-//	{
-//		cout << "Мороз" << endl;
-//	}
-//	else if (temperatur >= -43 )
-//	{
-//		cout << "Вы на северном полюсе" << endl;
-//	}
-//	else if (temperatur >= -70) 
-//	{
-//		cout << "Вы на другой планете" << endl;
-//	}
-//}
+#include<iostream>
+using namespace std;
+
+//#define UROK_5
+
+#ifdef UROK_5
+void main() 
+{
+	setlocale(LC_ALL, "");
+	cout << "ControlStructures" << endl;
+	int temperatur;
+	cout << "Введите температуру воздуха: "; cin >> temperatur;
+	cout << temperatur << endl;
+	if (temperatur >= 50) 
+	{
+		cout << "Вы на экваторе" << endl;
+	}
+	else if (temperatur >= 70)
+	{
+		cout << "Вы на другой планете" << endl;
+	}
+	else if (temperatur >= 30) 
+	{
+		cout << "Жарко" << endl;
+	}
+	else if (temperatur >= 10) 
+	{
+		cout << "Тепло" << endl;
+	}
+	else if (temperatur >= 0) 
+	{
+		cout << "Прохладно" << endl;
+	}
+	else if (temperatur >= -10)
+	{
+		cout << "Мороз" << endl;
+	}
+	else if (temperatur >= -43 )
+	{
+		cout << "Вы на северном полюсе" << endl;
+	}
+	else if (temperatur >= -70) 
+	{
+		cout << "Вы на другой планете" << endl;
+	}
+}
+#endif //UROK_5

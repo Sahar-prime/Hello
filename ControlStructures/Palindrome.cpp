@@ -29,7 +29,5 @@ int main()
     else {
         std::cout << "Число " << number << " не является палиндромом." << std::endl;
     }
-
-    return 0;
 }
 #endif

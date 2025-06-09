@@ -1,15 +1,16 @@
 #include<iostream>
 using namespace std;
+
+//#define Elochka
+
 #define first_str "\t\t\t\t\t\t\t"
 #define strok "\n\t\t\t\t\t\t"
 #define hi "+++++"
-#define Elochka
 
-
-void ni()
+#ifdef Elochka
+void main()
 {
 	setlocale(LC_ALL, "Russian");
-#if defined Elochka
 	cout << first_str hi;
 	cout << strok << "В лесу родилась елочка,\n\t\t\t\t\t\tВ лесу она росла,\n\t\t\t\t\t\tЗимой и летом стройная,\n\t\t\t\t\t\tЗеленая была.\n";
 	cout << strok << "Метель ей пела песенку:\n\t\t\t\t\t\t\"Спи, елочка, бай - бай!\"\n\t\t\t\t\t\tМороз снежком укутывал:\n\t\t\t\t\t\t\"Смотри, не замерзай!\"\n";
@@ -17,9 +18,8 @@ void ni()
 	cout << strok << "Чу! Снег по лесу частому\n\t\t\t\t\t\tПод полозом скрипит,\n\t\t\t\t\t\tЛошадка мохноногая\n\t\t\t\t\t\tТоропится, бежит.\n";
 	cout << strok << "Везет лошадка дровенки,\n\t\t\t\t\t\tА в дровнях старичок,\n\t\t\t\t\t\tСрубил он нашу елочку\n\t\t\t\t\t\tПод самый корешок.\n";
 	cout << strok << "Теперь она, нарядная,\n\t\t\t\t\t\tHа праздник к нам пришла\n\t\t\t\t\t\tИ много, много радости\n\t\t\t\t\t\tДетишкам принесла!\n";
-
-#endif
 }
+#endif //Elochka
 
 
 //Ctrl+F7 - компиляция

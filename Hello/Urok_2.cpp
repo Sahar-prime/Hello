@@ -66,8 +66,13 @@ double - вещественное число двойной точности (8 byte) и может 308 знаков после з
 
 #include<iostream>
 using namespace std;
+
+//#define UROK_2
+
 #define delimiter "\n-------------------------------------------------------\n"
-void in()
+
+#ifdef UROK_2
+void main()
 {	
 	setlocale(LC_ALL, "Russian");
 	//cout << "DataTypes" << endl;
@@ -88,3 +93,4 @@ void in()
 	cin >> price;
 	cout << "Вы ввели: " << price << endl;
 }
+#endif //UROK_2

@@ -1,9 +1,13 @@
 ﻿#include <iostream>
 #include <conio.h>
 using namespace std;
+
+//#define LOOPS
+
 //#define WHILE_1
 //#define WHILE_2
 
+#ifdef LOOPS
 void main()
 {
 	setlocale(LC_ALL, "Russian");
@@ -38,3 +42,4 @@ void main()
 		cout << (int)key << "\t" << key << endl;
 	} while (true);
 }
+#endif //LOOPS

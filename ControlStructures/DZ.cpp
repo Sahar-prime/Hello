@@ -1,6 +1,8 @@
 ﻿#include <iostream>
 using namespace std;
 
+//#define DZ
+
 void decimalToHex(int decimalNumber)
 {
     if (decimalNumber == 0) 
@@ -27,6 +29,7 @@ void decimalToHex(int decimalNumber)
     }
 }
 
+#ifdef DZ
 int main()
 {
     setlocale(LC_ALL, "");
@@ -40,6 +43,5 @@ int main()
     cout << "Шестнадцатеричное представление: ";
     decimalToHex(decimalNumber);
     cout << std::endl;
-
-    return 0;
 }
+#endif //DZ
