@@ -1,6 +1,6 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <conio.h>
-#include <cctype> //это библиотека, которая позволяет использовать key = tolower(key);
+#include <cctype> //СЌС‚Рѕ Р±РёР±Р»РёРѕС‚РµРєР°, РєРѕС‚РѕСЂР°СЏ РїРѕР·РІРѕР»СЏРµС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ key = tolower(key);
 
 using namespace std;
 
@@ -26,47 +26,47 @@ void main()
         key = _getch();
         if (key == 0 || key == -32)
         {
-            key = _getch(); // получаем второй символ последовательности
+            key = _getch(); // РїРѕР»СѓС‡Р°РµРј РІС‚РѕСЂРѕР№ СЃРёРјРІРѕР» РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё
             if (key == up) 
             {
-                cout << "Шаг вперед" << endl;
+                cout << "РЁР°Рі РІРїРµСЂРµРґ" << endl;
             }
             else if (key == down)
             {
-                cout << "Шаг назад" << endl;
+                cout << "РЁР°Рі РЅР°Р·Р°Рґ" << endl;
             }
             else if (key == left_arrow)
             {
-                cout << "Поворот влево" << endl;
+                cout << "РџРѕРІРѕСЂРѕС‚ РІР»РµРІРѕ" << endl;
             }
             else if (key == right_arrow) 
             {
-                cout << "Поворот вправо" << endl;
+                cout << "РџРѕРІРѕСЂРѕС‚ РІРїСЂР°РІРѕ" << endl;
             }
         }
         else
         {
-            key = tolower(key); //это команда делает нижний регистр букв
+            key = tolower(key); //СЌС‚Рѕ РєРѕРјР°РЅРґР° РґРµР»Р°РµС‚ РЅРёР¶РЅРёР№ СЂРµРіРёСЃС‚СЂ Р±СѓРєРІ
             if (key == forw) 
             {
-                cout << "Шаг вперед" << endl;
+                cout << "РЁР°Рі РІРїРµСЂРµРґ" << endl;
             }
             else if (key == backw) 
             {
-                cout << "Шаг назад" << endl;
+                cout << "РЁР°Рі РЅР°Р·Р°Рґ" << endl;
             }
             else if (key == left) 
             {
-                cout << "Поворот влево" << endl;
+                cout << "РџРѕРІРѕСЂРѕС‚ РІР»РµРІРѕ" << endl;
             }
             else if (key == right)
             {
-                cout << "Поворот вправо" << endl;
+                cout << "РџРѕРІРѕСЂРѕС‚ РІРїСЂР°РІРѕ" << endl;
             }
 
             if (key == 13) 
             {
-                cout << "Огонь!!!" << endl;
+                cout << "РћРіРѕРЅСЊ!!!" << endl;
             }
         }
     } while (key != 27);

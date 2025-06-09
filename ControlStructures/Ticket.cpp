@@ -1,9 +1,9 @@
-#include <iostream>
+п»ї#include <iostream>
 
 //#define TICKET
 
 bool isLuckyTicket(int ticketNumber) {
-    // Извлекаем цифры билета
+    // РР·РІР»РµРєР°РµРј С†РёС„СЂС‹ Р±РёР»РµС‚Р°
     int digit1 = ticketNumber / 100000;
     int digit2 = (ticketNumber / 10000) % 10;
     int digit3 = (ticketNumber / 1000) % 10;
@@ -11,11 +11,11 @@ bool isLuckyTicket(int ticketNumber) {
     int digit5 = (ticketNumber / 10) % 10;
     int digit6 = ticketNumber % 10;
 
-    // Вычисляем сумму первых трёх и последних трёх цифр
+    // Р’С‹С‡РёСЃР»СЏРµРј СЃСѓРјРјСѓ РїРµСЂРІС‹С… С‚СЂС‘С… Рё РїРѕСЃР»РµРґРЅРёС… С‚СЂС‘С… С†РёС„СЂ
     int sumFirstHalf = digit1 + digit2 + digit3;
     int sumSecondHalf = digit4 + digit5 + digit6;
 
-    // Сравниваем суммы
+    // РЎСЂР°РІРЅРёРІР°РµРј СЃСѓРјРјС‹
     return sumFirstHalf == sumSecondHalf;
 }
 
@@ -25,14 +25,14 @@ int main()
     setlocale(LC_ALL, "Russian");
     int ticketNumber;
 
-    std::cout << "Введите номер автобусного билета (шестизначное число): ";
+    std::cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р°РІС‚РѕР±СѓСЃРЅРѕРіРѕ Р±РёР»РµС‚Р° (С€РµСЃС‚РёР·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ): ";
     std::cin >> ticketNumber;
 
     if (isLuckyTicket(ticketNumber)) {
-        std::cout << "Билет " << ticketNumber << " является счастливым!" << std::endl;
+        std::cout << "Р‘РёР»РµС‚ " << ticketNumber << " СЏРІР»СЏРµС‚СЃСЏ СЃС‡Р°СЃС‚Р»РёРІС‹Рј!" << std::endl;
     }
     else {
-        std::cout << "Билет " << ticketNumber << " является обычным." << std::endl;
+        std::cout << "Р‘РёР»РµС‚ " << ticketNumber << " СЏРІР»СЏРµС‚СЃСЏ РѕР±С‹С‡РЅС‹Рј." << std::endl;
     }
 
     return 0;

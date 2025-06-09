@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <conio.h>
 using namespace std;
 
@@ -24,27 +24,27 @@ void main()
 
 		if (key == 'w' || key == 'W' || key == Up_Arrow)
 		{
-			cout << "Âïåðåä" << endl;
+			cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
 		}
 		else if (key == 's' || key == 'S' || key == Down_Arrow)
 		{
-			cout << "Íàçàä" << endl;
+			cout << "ÐÐ°Ð·Ð°Ð´" << endl;
 		}
 		else if (key == 'a' || key == 'A' || key == Left_Arrow)
 		{
-			cout << "Âëåâî" << endl;
+			cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;
 		}
 		else if (key == 'd' || key == 'D' || key == Right_Arrow)
 		{
-			cout << "Âïðàâî" << endl;
+			cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;
 		}
 		else if (key == ' ')
 		{
-			cout << "Ïðûæîê" << endl;
+			cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
 		}
 		else if (key == Enter)
 		{
-			cout << "Îãîíü!" << endl;
+			cout << "ÐžÐ³Ð¾Ð½ÑŒ!" << endl;
 		}
 
 		else 
@@ -71,28 +71,28 @@ void main()
         case 'w':
         case 'W':
         case Up_Arrow:
-            cout << "Âïåðåä" << endl;
+            cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
             break;
         case 's':
         case 'S':
         case Down_Arrow:
-            cout << "Íàçàä" << endl;
+            cout << "ÐÐ°Ð·Ð°Ð´" << endl;
             break;
         case 'a':
         case 'A':
         case Left_Arrow:
-            cout << "Âëåâî" << endl;
+            cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;
             break;
         case 'd':
         case 'D':
         case Right_Arrow:
-            cout << "Âïðàâî" << endl;
+            cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;
             break;
         case ' ':
-            cout << "Ïðûæîê" << endl;
+            cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
             break;
         case Enter:
-            cout << "Îãîíü!" << endl;
+            cout << "ÐžÐ³Ð¾Ð½ÑŒ!" << endl;
             break;
         default:
             if (key != -32 && key != Escape) cout << "Error" << endl;

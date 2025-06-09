@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 //#define PALINDROME
 
@@ -20,14 +20,14 @@ int main()
     setlocale(LC_ALL, "Russian");
     int number;
 
-    std::cout << "Ââåäèòå ÷èñëî: ";
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
     std::cin >> number;
 
     if (isPalindrome(number)) {
-        std::cout << "×èñëî " << number << " ÿâëÿåòñÿ ïàëèíäðîìîì." << std::endl;
+        std::cout << "Ð§Ð¸ÑÐ»Ð¾ " << number << " ÑÐ²Ð»ÑÐµÑ‚ÑÑ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼Ð¾Ð¼." << std::endl;
     }
     else {
-        std::cout << "×èñëî " << number << " íå ÿâëÿåòñÿ ïàëèíäðîìîì." << std::endl;
+        std::cout << "Ð§Ð¸ÑÐ»Ð¾ " << number << " Ð½Ðµ ÑÐ²Ð»ÑÐµÑ‚ÑÑ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼Ð¾Ð¼." << std::endl;
     }
 
     return 0;
