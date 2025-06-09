@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 //#define CALC_IF
 #define CALC_SWITCH
@@ -9,36 +9,36 @@ void n()
 	int num_2;
 	char operation;
 	int result;
-	cout << "Ââåäèòå ïåðâîå ÷èñëî:" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:" << endl;
 	cin >> num_1;
-	cout << "Ââåäèòå âòîðîå ÷èñëî:" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:" << endl;
 	cin >> num_2;
-	cout << "Ââåäèòå àðèôìåòè÷åñêóþ îïåðàöèþ:" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÑƒÑŽ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸ÑŽ:" << endl;
 	cin >> operation;
 #if defined CALC_IF
 	if (operation == '+')
 	{
 		result = num_1 + num_2;
-		cout << "Îòâåò: " << result;
+		cout << "ÐžÑ‚Ð²ÐµÑ‚: " << result;
 	}
 	else if (operation == '-')
 	{
 		result = num_1 - num_2;
-		cout << "Îòâåò: " << result;
+		cout << "ÐžÑ‚Ð²ÐµÑ‚: " << result;
 	}
 	else if (operation == '*')
 	{
 		result = num_1 * num_2;
-		cout << "Îòâåò: " << result;
+		cout << "ÐžÑ‚Ð²ÐµÑ‚: " << result;
 	}
 	else if (operation == ':')
 	{
 		result = num_1 / num_2;
-		cout << "Îòâåò: " << result;
+		cout << "ÐžÑ‚Ð²ÐµÑ‚: " << result;
 	}
 	else 
 	{
-		cout << "Ââåäèòå ýëåìåíòàðíûå àðèôìåòè÷åñêèå îïåðàöèè: \'*, :, +, -.\'" << endl;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°Ñ€Ð½Ñ‹Ðµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ðµ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¸: \'*, :, +, -.\'" << endl;
 	}
 #endif
 
@@ -50,9 +50,9 @@ void n()
 	case '*': cout << num_1 << "*" << num_2 << " = " << num_1 * num_2 << endl; break;
 	case ':': cout << num_1 << ":" << num_2 << " = " << num_1 / num_2 << endl; break;
 	default: cout << "Error: No operation" << endl;
-	//case - ñëó÷àé
-	//value - çíà÷åíèå
-	//label - ìåòêà
+	//case - ÑÐ»ÑƒÑ‡Ð°Ð¹
+	//value - Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ
+	//label - Ð¼ÐµÑ‚ÐºÐ°
 	
 	}
 

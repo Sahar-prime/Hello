@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 //#define SQUARE
 //#define TRIANGLE_1
@@ -13,7 +13,7 @@ void man()
 	setlocale(LC_ALL, "");
 
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 
 #ifdef SQUARE
 	for (int i = 0; i < n; i++)

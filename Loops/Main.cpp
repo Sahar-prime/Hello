@@ -1,4 +1,4 @@
-#include <iostream>
+Ôªø#include <iostream>
 #include <conio.h>
 using namespace std;
 //#define WHILE_1
@@ -11,7 +11,7 @@ void main()
 #ifdef WHILE_1
 	int i = 0;
 	int n;
-	cout << "¬‚Â‰ËÚÂ ÍÓÎ-‚Ó ËÚÂ‡ˆËÈ: ";
+	cout << "–í–≤–µ–¥–∏—Ç–µ –∫–æ–ª-–≤–æ –∏—Ç–µ—Ä–∞—Ü–∏–π: ";
 	cin >> n;
 	while (++i < n)
 	{
@@ -22,7 +22,7 @@ void main()
 
 #ifdef WHILE_2
 	int n;
-	cout << "¬‚Â‰ËÚÂ ÍÓÎ-‚Ó ËÚÂ‡ˆËÈ: "; cin >> n;
+	cout << "–í–≤–µ–¥–∏—Ç–µ –∫–æ–ª-–≤–æ –∏—Ç–µ—Ä–∞—Ü–∏–π: "; cin >> n;
 	while (n)
 	{
 		cout << n-- << "\t";
@@ -33,8 +33,8 @@ void main()
 	char key;
 	do
 	{
-		key = _getch(); // ÙÛÌÍˆËˇ _getch() ÓÊË‰‡ÂÚ Ì‡Ê‡ÚËÂ ÍÎ‡‚Ë¯Ë Ë ‚ÓÁ‡˘‡ÂÚ ASCII-ÍÓ‰ Ì‡Ê‡ÚÓÈ ÍÎ‡‚Ë¯Ë.
-						// ÙÛÌÍˆËˇ _getch() Ó·˙ˇ‚ÎÂÌ‡ ‚ ·Ë·ÎËÓÚÂÍÂ <conio.h>
+		key = _getch(); // —Ñ—É–Ω–∫—Ü–∏—è _getch() –æ–∂–∏–¥–∞–µ—Ç –Ω–∞–∂–∞—Ç–∏–µ –∫–ª–∞–≤–∏—à–∏ –∏ –≤–æ–∑—Ä–∞—â–∞–µ—Ç ASCII-–∫–æ–¥ –Ω–∞–∂–∞—Ç–æ–π –∫–ª–∞–≤–∏—à–∏.
+						// —Ñ—É–Ω–∫—Ü–∏—è _getch() –æ–±—ä—è–≤–ª–µ–Ω–∞ –≤ –±–∏–±–ª–∏–æ—Ç–µ–∫–µ <conio.h>
 		cout << (int)key << "\t" << key << endl;
 	} while (true);
 }

@@ -1,16 +1,16 @@
-#include <iostream>
+п»ї#include <iostream>
 
 using namespace std;
 
 void printPascalTriangle(int depth)
 {
-    // Создаем двумерный массив для хранения треугольника
+    // РЎРѕР·РґР°РµРј РґРІСѓРјРµСЂРЅС‹Р№ РјР°СЃСЃРёРІ РґР»СЏ С…СЂР°РЅРµРЅРёСЏ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
     int** triangle = new int* [depth];
 
     for (int i = 0; i < depth; ++i) 
     {
         triangle[i] = new int[i + 1];
-        triangle[i][0] = triangle[i][i] = 1; // Первое и последнее значение в строке всегда 1
+        triangle[i][0] = triangle[i][i] = 1; // РџРµСЂРІРѕРµ Рё РїРѕСЃР»РµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ РІ СЃС‚СЂРѕРєРµ РІСЃРµРіРґР° 1
 
         for (int j = 1; j < i; ++j) 
         {
@@ -18,7 +18,7 @@ void printPascalTriangle(int depth)
         }
     }
 
-    // Выводим треугольник на экран
+    // Р’С‹РІРѕРґРёРј С‚СЂРµСѓРіРѕР»СЊРЅРёРє РЅР° СЌРєСЂР°РЅ
     for (int i = 0; i < depth; ++i)
     {
         for (int j = 0; j <= i; ++j)
@@ -28,7 +28,7 @@ void printPascalTriangle(int depth)
         cout << endl;
     }
 
-    // Освобождаем память
+    // РћСЃРІРѕР±РѕР¶РґР°РµРј РїР°РјСЏС‚СЊ
     for (int i = 0; i < depth; ++i) 
     {
         delete[] triangle[i];
@@ -40,7 +40,7 @@ int main()
 {
     setlocale(LC_ALL, "");
     int depth;
-    cout << "Введите глубину треугольника Паскаля: ";
+    cout << "Р’РІРµРґРёС‚Рµ РіР»СѓР±РёРЅСѓ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° РџР°СЃРєР°Р»СЏ: ";
     cin >> depth;
 
     printPascalTriangle(depth);

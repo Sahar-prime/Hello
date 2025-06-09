@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 ////2
 //unsigned long long factorial(int n) 
@@ -16,9 +16,9 @@ using namespace std;
 //{
 //    setlocale(LC_ALL, "");
 //    int number;
-//    cout << "Ââåäèòå ÷èñëî äëÿ âû÷èñëåíèÿ ôàêòîðèàëà: ";
+//    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð´Ð»Ñ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð»Ð°: ";
 //    cin >> number;
-//    cout << "Ôàêòîðèàë " << number << " ðàâåí " << factorial(number) << endl;
+//    cout << "Ð¤Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» " << number << " Ñ€Ð°Ð²ÐµÐ½ " << factorial(number) << endl;
 //    return 0;
 //}
 //
@@ -37,11 +37,11 @@ using namespace std;
 //{
 //    setlocale(LC_ALL, "");
 //    int base, exponent;
-//    cout << "Ââåäèòå îñíîâàíèå ñòåïåíè: ";
+//    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: ";
 //    cin >> base;
-//    cout << "Ââåäèòå ïîêàçàòåëü ñòåïåíè: ";
+//    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾ÐºÐ°Ð·Ð°Ñ‚ÐµÐ»ÑŒ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: ";
 //    cin >> exponent;
-//    cout << base << " â ñòåïåíè " << exponent << " ðàâíî " << power(base, exponent) << endl;
+//    cout << base << " Ð² ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸ " << exponent << " Ñ€Ð°Ð²Ð½Ð¾ " << power(base, exponent) << endl;
 //    return 0;
 //}
 //
@@ -82,7 +82,7 @@ using namespace std;
 //{
 //    setlocale(LC_ALL, "");
 //    int limit;
-//    cout << "Ââåäèòå ïðåäåë äëÿ ðÿäà Ôèáîíà÷÷è: ";
+//    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€ÐµÐ´ÐµÐ» Ð´Ð»Ñ Ñ€ÑÐ´Ð° Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸: ";
 //    cin >> limit;
 //    fibonacci_up_to(limit);
 //    return 0;
@@ -106,7 +106,7 @@ using namespace std;
 //{
 //    setlocale(LC_ALL, "");
 //    int n;
-//    cout << "Ââåäèòå êîëè÷åñòâî ÷èñåë èç ðÿäà Ôèáîíà÷÷è: ";
+//    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ‡Ð¸ÑÐµÐ» Ð¸Ð· Ñ€ÑÐ´Ð° Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸: ";
 //    cin >> n;
 //    fibonacci_n_numbers(n);
 //    return 0;
@@ -139,7 +139,7 @@ using namespace std;
 //{
 //    setlocale(LC_ALL, "");
 //    int limit;
-//    cout << "Ââåäèòå ïðåäåë äëÿ ðÿäà ïðîñòûõ ÷èñåë: ";
+//    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€ÐµÐ´ÐµÐ» Ð´Ð»Ñ Ñ€ÑÐ´Ð° Ð¿Ñ€Ð¾ÑÑ‚Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: ";
 //    cin >> limit;
 //    print_primes_up_to(limit);
 //    return 0;
