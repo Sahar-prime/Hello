@@ -15,7 +15,7 @@ using namespace std;
 //Escape-послежовательность '\xXX' позволяет прямо в строке задать символ по ASCII-коду в шестнадцатеричной системе счисления.
 
 #ifdef CHESS_BOARD
-void main()
+int main()
 {
 	setlocale(LC_ALL, "");
 	int n;

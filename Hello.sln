@@ -13,8 +13,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FOR", "FOR\FOR.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geometry", "Geometry\Geometry.vcxproj", "{F6950610-13B6-4EDB-9029-BCBE8C404DF3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calc", "Calc\Calc.vcxproj", "{1F4DB7BD-24D7-4109-BD0A-E5D281B8E12E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -63,14 +61,6 @@ Global
 		{F6950610-13B6-4EDB-9029-BCBE8C404DF3}.Release|x64.Build.0 = Release|x64
 		{F6950610-13B6-4EDB-9029-BCBE8C404DF3}.Release|x86.ActiveCfg = Release|Win32
 		{F6950610-13B6-4EDB-9029-BCBE8C404DF3}.Release|x86.Build.0 = Release|Win32
-		{1F4DB7BD-24D7-4109-BD0A-E5D281B8E12E}.Debug|x64.ActiveCfg = Debug|x64
-		{1F4DB7BD-24D7-4109-BD0A-E5D281B8E12E}.Debug|x64.Build.0 = Debug|x64
-		{1F4DB7BD-24D7-4109-BD0A-E5D281B8E12E}.Debug|x86.ActiveCfg = Debug|Win32
-		{1F4DB7BD-24D7-4109-BD0A-E5D281B8E12E}.Debug|x86.Build.0 = Debug|Win32
-		{1F4DB7BD-24D7-4109-BD0A-E5D281B8E12E}.Release|x64.ActiveCfg = Release|x64
-		{1F4DB7BD-24D7-4109-BD0A-E5D281B8E12E}.Release|x64.Build.0 = Release|x64
-		{1F4DB7BD-24D7-4109-BD0A-E5D281B8E12E}.Release|x86.ActiveCfg = Release|Win32
-		{1F4DB7BD-24D7-4109-BD0A-E5D281B8E12E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

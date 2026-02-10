@@ -7,13 +7,12 @@ using namespace std;
 //#define CALC_SWITCH
 
 #ifdef CALC
-void main() 
+int main() 
 {
 	setlocale(LC_ALL, "");
 	int num_1;
 	int num_2;
 	char operation;
-	int result;
 	cout << "Введите первое число:" << endl;
 	cin >> num_1;
 	cout << "Введите второе число:" << endl;
@@ -21,6 +20,7 @@ void main()
 	cout << "Введите арифметическую операцию:" << endl;
 	cin >> operation;
 #if defined CALC_IF
+	int result;
 	if (operation == '+')
 	{
 		result = num_1 + num_2;
@@ -58,10 +58,7 @@ void main()
 	//case - случай
 	//value - значение
 	//label - метка
-	
 	}
-
-
 #endif
 }
 #endif //CALC

@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="ChessBoard.cpp" />
     <ClCompile Include="ChessBoard_2.cpp" />
-    <ClCompile Include="ControlStructures.cpp" />
     <ClCompile Include="DZ.cpp" />
     <ClCompile Include="HardChess.cpp" />
     <ClCompile Include="HardChess_2.cpp" />
@@ -137,7 +136,9 @@
     <ClCompile Include="Shooter.cpp" />
     <ClCompile Include="Shooter_2.cpp" />
     <ClCompile Include="Ticket.cpp" />
-    <ClCompile Include="While_do_while.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="While_do_while.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

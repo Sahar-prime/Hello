@@ -7,7 +7,6 @@ using namespace std;
 //#define TRIANGLE_1
 //#define TRIANGLE_2
 //#define TRIANGLE_3
-//#define TRIANGLE_4
 //#define RHOMBUS
 //#define RHOMBUS_2
 
@@ -65,10 +64,6 @@ void main()
 		}
 		cout << endl;
 	}
-#endif
-
-#ifdef TRIANGLE_4
-
 #endif
 
 #ifdef RHOMBUS

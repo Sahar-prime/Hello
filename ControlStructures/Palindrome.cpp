@@ -2,11 +2,13 @@
 
 //#define PALINDROME
 
-bool isPalindrome(int number) {
+bool isPalindrome(int number)
+{
     int originalNumber = number;
     int reversedNumber = 0;
 
-    while (number > 0) {
+    while (number > 0) 
+    {
         reversedNumber = reversedNumber * 10 + number % 10;
         number /= 10;
     }

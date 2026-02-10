@@ -133,7 +133,9 @@
     <ClCompile Include="Urok_3.cpp" />
     <ClCompile Include="Urok_4.cpp" />
     <ClCompile Include="Urok_5.cpp" />
-    <ClCompile Include="Urok_6.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Urok_6.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

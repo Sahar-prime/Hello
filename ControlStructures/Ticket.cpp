@@ -2,7 +2,8 @@
 
 //#define TICKET
 
-bool isLuckyTicket(int ticketNumber) {
+bool isLuckyTicket(int ticketNumber) 
+{
     // Извлекаем цифры билета
     int digit1 = ticketNumber / 100000;
     int digit2 = (ticketNumber / 10000) % 10;
@@ -31,7 +32,8 @@ int main()
     if (isLuckyTicket(ticketNumber)) {
         std::cout << "Билет " << ticketNumber << " является счастливым!" << std::endl;
     }
-    else {
+    else
+    {
         std::cout << "Билет " << ticketNumber << " является обычным." << std::endl;
     }
 }

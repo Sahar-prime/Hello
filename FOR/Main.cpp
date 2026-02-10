@@ -6,7 +6,7 @@ using namespace std;
 //#define FACTORIAL
 //#define POWER
 //#define FIBONACCI
-//define SIMPLE_NUMB
+//#define SIMPLE_NUMB
 //#define PERFECT_NUMB
 //#define PITHAGORAS_TABLE
 

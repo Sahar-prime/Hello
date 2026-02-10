@@ -10,7 +10,8 @@ using namespace std;
 //#define FIGURE
 
 #ifdef ASCII_TABLE
-void print_ascii_table() {
+void print_ascii_table() 
+{
     for (int i = 32; i < 128; ++i) 
     {
         cout << char(i) << " ";

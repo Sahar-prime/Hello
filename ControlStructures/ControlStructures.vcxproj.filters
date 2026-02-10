@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ControlStructures.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Ticket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Palindrome.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="While_do_while.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Shooter.cpp">
@@ -48,5 +42,10 @@
     <ClCompile Include="DZ.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="While_do_while.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
