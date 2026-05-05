@@ -8,7 +8,7 @@ using namespace std;
 #define hi "+++++"
 
 #ifdef Elochka
-void main()
+int main()
 {
 	setlocale(LC_ALL, "Russian");
 	cout << first_str hi;
@@ -18,6 +18,7 @@ void main()
 	cout << strok << "Чу! Снег по лесу частому\n\t\t\t\t\t\tПод полозом скрипит,\n\t\t\t\t\t\tЛошадка мохноногая\n\t\t\t\t\t\tТоропится, бежит.\n";
 	cout << strok << "Везет лошадка дровенки,\n\t\t\t\t\t\tА в дровнях старичок,\n\t\t\t\t\t\tСрубил он нашу елочку\n\t\t\t\t\t\tПод самый корешок.\n";
 	cout << strok << "Теперь она, нарядная,\n\t\t\t\t\t\tHа праздник к нам пришла\n\t\t\t\t\t\tИ много, много радости\n\t\t\t\t\t\tДетишкам принесла!\n";
+	return 0;
 }
 #endif //Elochka
 
